@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/normal_size"
+            android:background="@color/light_blue"
+            >
+
+        <TextView
+                style="@style/BoxText"
+                android:text="@string/dpi"
+                />
+
+        <EditText
+                style="@style/FormEditText.Left"
+                android:inputType="numberDecimal"
+                android:hint="@string/width"
+                />
+        <EditText
+                style="@style/FormEditText.Left"
+                android:inputType="numberDecimal"
+                android:hint="@string/height"
+                />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/normal_size">
+
+        <TextView
+                style="@style/BoxText"
+                android:text="@string/xxhdpi"
+                />
+
+        <EditText
+                style="@style/FormEditText.Left"
+                android:inputType="numberDecimal"
+
+                />
+        <EditText
+                style="@style/FormEditText.Left"
+                android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/normal_size">
+
+        <TextView
+                style="@style/BoxText"
+                android:text="@string/xhdpi"
+                />
+
+        <EditText
+                style="@style/FormEditText.Left"
+                android:inputType="numberDecimal"/>
+        <EditText
+                style="@style/FormEditText.Left"
+                android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/normal_size">
+
+        <TextView
+                style="@style/BoxText"
+                android:text="@string/hdpi"
+                />
+
+        <EditText
+                style="@style/FormEditText.Left"
+                android:inputType="numberDecimal"/>
+        <EditText
+                style="@style/FormEditText.Left"
+                android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/normal_size"
+            android:background="@color/light_blue"
+            >
+
+        <TextView
+                style="@style/BoxText"
+                android:text="@string/mdpi"
+                />
+
+        <EditText
+                style="@style/FormEditText.Left"
+                android:inputType="numberDecimal"/>
+        <EditText
+                style="@style/FormEditText.Left"
+                android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/normal_size">
+
+        <TextView
+                style="@style/BoxText"
+                android:text="@string/ldpi"                />
+
+        <EditText
+                style="@style/FormEditText.Left"
+                android:inputType="numberDecimal"/>
+        <EditText
+
+                style="@style/FormEditText.Left"
+                android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/normal_size">
+
+        <TextView
+                style="@style/BoxText"
+                android:text="@string/tvdpi"
+                />
+
+        <EditText
+                style="@style/FormEditText.Left"
+                android:inputType="numberDecimal"/>
+        <EditText
+                style="@style/FormEditText.Left"
+                android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
